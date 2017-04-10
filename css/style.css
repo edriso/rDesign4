@@ -1,7 +1,7 @@
 /* GLOBAL */
 h1,h2,h3,h4,.lead {font-family: 'Open Sans', sans-serif;}
 p {color: #999;}
-section:not(.social) {padding-top: 70px; padding-bottom: 70px;}
+section:not(.social) {padding-top: 60px; padding-bottom: 60px;}
 @media (max-width:991px) {
     section:not(.social) {padding-top: 40px; padding-bottom: 40px;}
 }
