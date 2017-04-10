@@ -80,6 +80,11 @@ header form {
     color: #333;
     margin-top: 40px;
 }
+@media (max-width:991px) {
+    header form {
+        width: 270px;
+    }
+}
 header form h2 {
     background-color: #f5f5f5;
     color: #333;
@@ -341,7 +346,7 @@ header form input[type="submit"] {
 }
 .contactUs form input[name="Subject"] {margin-bottom: 0;}
 .contactUs form textarea {
-    width: 80%;
+    width: 90%;
     height: 165px;
     resize: none;
     border: none;
