@@ -82,6 +82,11 @@ header form {
 }
 @media (max-width:991px) {
     header form {
+        width: 350px;
+    }
+}
+@media (max-width:450px) {
+    header form {
         width: 270px;
     }
 }
@@ -98,10 +103,10 @@ header form h2 span {color: #ff8b38;}
 header form .form-control {
     border-radius: 0;
     border: none;
+    box-shadow: none;
     border-bottom: 1px solid #ccc;
     width: 80%;
     margin: 0 auto 40px;
-    box-shadow: none;
 }
 header form input[type="submit"] {
     background-color: #ff8b38;
